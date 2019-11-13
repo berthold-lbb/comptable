@@ -1,0 +1,937 @@
+header {
+  height: 100px;
+  z-index: 20;
+  transition: all .4s ease-in-out;
+}
+
+header .logoBlock, header img, header .navBlock .primary-menu, header .btnBlock .akauntingGetStarted, header .btnBlock .akauntingGetStarted + div {
+  transition: all .4s ease-in-out;
+}
+
+Header.scrolledHeader {
+  height: 60px;
+  background-color: #fff;
+  transition: all .4s ease;
+}
+
+Header .logoBlock img, Header .navBlock, Header .btnBlock {
+  height: 100px;
+  transition: height .4s ease;
+}
+
+Header img.logo:nth-child(2) {
+  display: none;
+  height: 100px;
+}
+
+Header.scrolledHeader img.logo:nth-child(2), Header.scrolledHeader .navBlock, Header.scrolledHeader .btnBlock {
+  height: 60px;
+  transition: height .4s ease;
+}
+
+Header.scrolledHeader img.logo:nth-child(2) {
+  display: block;
+}
+
+Header.scrolledHeader img.logo:nth-child(1) {
+  display: none;
+}
+
+header.scrolledHeader #primary-menu ul li > a, header.scrolledHeader #top-account > a, header.scrolledHeader #top-language > a {
+  color: #555;
+  border-color: #6da252;
+  transition: color .4s ease-in-out;
+}
+
+header.scrolledHeader #top-account > a, header.scrolledHeader #top-language > a {
+  background-color: #fff;
+}
+
+header.scrolledHeader #top-account > a:hover, header.scrolledHeader #top-language > a:hover {
+  background-color: #eee;
+  color: #555 !important;
+  transition: all .3s ease-in-out;
+}
+
+header.scrolledHeader #top-download a {
+  background-color: #6da252;
+  border-color: #6da252;
+  transition: color .4s ease-in-out;
+}
+
+header.scrolledHeader #primary-menu ul li > a {
+  border-color: #555;
+}
+
+.akountingSectionOne {
+  height: 100vh;
+  width: 100vw;
+  -webkit-background-size: cover;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+}
+
+.akountingSectionOne:after {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.2);
+  position: absolute;
+  z-index: 2;
+}
+
+.sectionOneTextBlock {
+  position: relative;
+  top: 0;
+  transition: top .4s ease;
+}
+
+.akountingSectionOne .sectionOneTextBlock div h1, .akountingSectionOne .sectionOneTextBlock div a {
+  z-index: 10;
+}
+
+.akauntingFullNav, .akauntingFullNav .row {
+  height: 100%;
+}
+
+.akauntingFullNav .row {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+.akauntingGetStarted .button-circle {
+  padding: 0 14px;
+  font-size: 11px;
+  height: 28px;
+  min-width: 136px;
+  border: 2px solid #EEE;
+  color: #EEE;
+  font-weight: 600;
+  border-radius: 14px;
+  transition: color .3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-default {
+  color: #FFF;
+  background-color: rgba(0,0,0,0.2);
+  border-color: rgba(255,255,255,0.15);
+}
+
+.lightAcounting {
+  color: #EEEEEE;
+}
+
+.akauntingGetStarted .button-circle i {
+  padding-right: 1em;
+}
+
+.akauntingGetStarted .btn.button-border.button-light:hover {
+  background-color: #EEE;
+  color: #333;
+  text-shadow: none;
+}
+
+.akauntingFullNav .dropdown-menu {
+  background-color: #333;
+  border-color: #3F3F3F;
+  transition: all .4s ease-in-out;
+}
+
+.akauntingFullNav .dropdown-menu li {
+  color: #DDD;
+}
+
+.akauntingFullNav .dropdown-menu li a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  color: #EEEEEE;
+  transition: all .4s ease-in-out;
+}
+
+.akauntingFullNav .dropdown-menu li a:hover {
+  color: #EEE;
+  background-color: rgba(255,255,255,0.1);
+}
+
+.btn-default:hover {
+  background-color: rgba(0,0,0,0.5);
+  color: #EEE !important;
+}
+
+#primary-menu ul li {
+  list-style: none;
+  float: left;
+  transition: all .4s ease-in-out;
+}
+
+#primary-menu ul li > a {
+  display: block;
+  line-height: 22px;
+  padding: 39px 15px;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  color: #EEE;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  transition: all .3s ease-in-out;
+}
+
+.akountingSectionOne .hero-h1 {
+  font-size: 64px;
+  letter-spacing: -2px;
+  color: #FFF;
+  font-weight: 400;
+  text-transform: none;
+  font-family: 'Lato', sans-serif;
+  max-width: 140px;
+  line-height: 1.5;
+  margin: 0 0 30px 0;
+}
+
+.akountingSectionOne .buttonPerso {
+  font-size: 16px;
+  height: 46px;
+  width: 146px;
+  line-height: 46px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.akountingSectionOne {
+  position: relative;
+}
+
+.akountingSectionOne .scrollDownMouse {
+  position: absolute;
+  z-index: 3;
+  bottom: 70px;
+  left: 50%;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+}
+
+.akountingSectionOne .one-page-arrow {
+  position: relative;
+  font-size: 38px;
+  text-align: center;
+  color: #EEEEEE;
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-animation-name: ScrollDown;
+  -moz-animation-name: ScrollDown;
+  -o-animation-name: ScrollDown;
+  animation-name: ScrollDown;
+  animation-duration: 1s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ScrollDown {
+  0% {
+    top: -20%;
+    opacity: 1;
+  }
+  100% {
+    top: 105%;
+    opacity: 0;
+  }
+}
+
+section.akauntingServicesBlock {
+  min-height: 100vh;
+  padding: 80px 0;
+}
+
+.noBotToMargin {
+  /*margin: 60px 0;*/
+  margin-top: 60px;
+  padding: 60px 0;
+  color: #eee;
+  background-color: #282828;
+  border-color: rgba(255,255,255,0.1);
+}
+
+.before-heading {
+  display: block;
+  margin: 0 0 5px;
+  font-size: 16px;
+  font-family: 'Crete Round', serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+footer.dark {
+  background-color: #333;
+  color: #CCC;
+  position: relative;
+  border-top: 5px solid rgba(0,0,0,0.2);
+}
+
+footer .footerFirstBlock {
+  padding: 80px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.widget > h4 {
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 30px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.widget_nav_menu ul, .widget_nav_menu li, .widget_links ul, .widget_links li, .widget_meta ul, .widget_meta li, .widget_archive ul, .widget_archive li, .widget_recent_comments ul, .widget_recent_comments li, .widget_recent_entries ul, .widget_recent_entries li, .widget_categories ul, .widget_categories li, .widget_pages ul, .widget_pages li, .widget_rss ul, .widget_rss li {
+  list-style: none;
+  margin: 0;
+}
+
+dl, dt, dd, ol, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.dark .button.button-border:not(.button-light) {
+  border-color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.5);
+}
+
+.dark .button {
+  width: 236px;
+  height: 40px;
+}
+
+.button.button-border {
+  border: 2px solid #444;
+  background-color: transparent;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: none;
+  border-radius: 3px;
+}
+
+.button.button-border:not(.button-fill):hover {
+  background-color: #5D4157;
+  color: #FFF;
+  border-color: transparent !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.dark .button.button-border:not(.button-light):hover {
+  color: #EEE;
+}
+
+.subscribe-widget h5 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 30px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.widget_nav_menu li, .widget_links li, .widget_meta li, .widget_archive li, .widget_recent_comments li, .widget_recent_entries li, .widget_categories li, .widget_pages li, .widget_rss li {
+  padding: 4px;
+}
+
+.widget_nav_menu li a, .widget_links li a, .widget_meta li a, .widget_archive li a, .widget_recent_entries li a, .widget_categories li a, .widget_pages li a, .widget_rss li a, .widget_recent_comments li a {
+  background: url(../img/widget-link-dark.png) left top no-repeat;
+  border: none !important;
+  color: #CCC;
+  font-size: 14px;
+  display: inline-block;
+  padding: 0 3px 0 12px;
+}
+
+dark .widget_nav_menu li a:hover, .dark .widget_links li a:hover, .dark .widget_meta li a:hover, .dark .widget_archive li a:hover, .dark .widget_recent_comments li a:hover, .dark .widget_recent_entries li a:hover, .dark .widget_categories li a:hover, .dark .widget_pages li a:hover, .dark .widget_rss li a:hover {
+  color: #AAA;
+}
+
+.divcenter {
+  position: relative !important;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.input-group {
+  position: relative;
+  border-collapse: separate;
+}
+
+.dark .input-group-text, .dark .input-group-btn .btn-default {
+  color: #999;
+  background-color: rgba(0,0,0,0.35);
+  border-color: rgba(0,0,0,0.25);
+}
+
+.dark .form-control:not(.not-dark), .dark .sm-form-control:not(.not-dark) {
+  color: #999;
+  background-color: rgba(0,0,0,0.2);
+  border-color: rgba(0,0,0,0.25);
+}
+
+.dark #copyrights {
+  background-color: rgba(0,0,0,0.2);
+  color: rgba(255,255,255,0.25);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+#copyrights {
+  padding: 40px 0;
+  background-color: #DDD;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.dark #copyrights {
+  background-color: rgba(0,0,0,0.2);
+  color: rgba(255,255,255,0.25);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+#copyrights {
+  padding: 40px 0;
+  background-color: #DDD;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+footer.dark .social-icon.si-borderless {
+  color: #555 !important;
+}
+
+footer button.btnValidationSender {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.socialLinkIcon {
+  float: right;
+}
+
+.social-icon.si-small {
+  width: 32px;
+  height: 32px;
+  line-height: 30px !important;
+}
+
+.social-icon {
+  margin: 0 5px 5px 0;
+  text-shadow: none;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font-style: normal;
+  border: none;
+  transition: all .3s ease;
+}
+
+.social-icon:hover i {
+  top: -32px;
+  color: #EEEEEE;
+}
+
+.si-github:hover, .si-colored.si-github {
+  background-color: #171515;
+}
+
+.si-facebook:hover, .si-colored.si-facebook {
+  background-color: #3B5998;
+}
+
+.si-twitter:hover, .si-colored.si-twitter {
+  background-color: #00ACEE;
+}
+
+.si-instagram:hover, .si-colored.si-instagram {
+  background-color: #3F729B;
+}
+
+.si-youtube:hover, .si-colored.si-youtube {
+  background-color: #C4302B;
+}
+
+.social-icon i {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  transition: all .3s ease;
+  font-size: 20px;
+  width: 32px;
+  top: 0;
+}
+
+.i-large.i-plain {
+  width: 48px;
+  height: 48px;
+  font-size: 42px;
+  line-height: 48px;
+  margin: 4px 11px 7px 0;
+  color: #6da252;
+}
+
+.noBotToMargin {
+  padding: 60px 0;
+  /*margin-top: 60px;*/
+  z-index: 10;
+}
+
+.noBotToMargin p {
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #eee;
+}
+
+.noBotToMargin h4 {
+  /*line-height: 1.8;*/
+  font-size: 20px;
+  /*margin-bottom: 30px;*/
+  color: #eee;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /*margin-bottom: 0;*/
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 30px 0;
+}
+
+.descOnlineBusiness p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 21px;
+}
+
+.descOnlineBusiness h2 {
+  line-height: 1.5;
+  /*margin-bottom: 0;*/
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.BlockDesc h2:after {
+  /*position: absolute;*/
+  content: '';
+  display: block;
+  margin-top: 30px;
+  width: 40px;
+  border-top: 2px solid #444;
+}
+
+.ohidden {
+  overflow: hidden;
+  z-index: 5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.imageBlockAnimated {
+  overflow: hidden;
+}
+
+.imageBlockAnimated img {
+  z-index: 5;
+}
+
+/*=====================akauntingSectionTree===========================*/
+/*=====================akauntingSectionTree===========================*/
+.akauntingSectionTree{
+  /*min-height: 100vh;*/
+}
+
+.akauntingSectionTree .akauntingInsideTreeS{
+  /*margin-top: 50px;*/
+  margin-bottom: 30px;
+}
+
+.akauntingSectionTree .heading-block {
+    margin-bottom: 50px;
+}
+
+.akauntingSectionTree .heading-block h2{
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.akauntingSectionTree .heading-block.center > span,.akauntingSectionTree .heading-block.title-center > span, .akauntingSectionTree .center .heading-block > span {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.akauntingSectionTree .heading-block > span:not(.before-heading) {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #777;
+}
+.akauntingSectionTree .heading-block h2 + span {
+    font-size: 22px;
+}
+
+.akauntingSectionTree .heading-block:after {
+    content: '';
+    display: block;
+    width: 40px;
+    border-top: 2px solid #444;
+    margin: 30px auto 0;
+}
+
+.akauntingSectionTree .divcenter {
+    position: relative !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.akauntingSectionTree .heading-block h2{
+    font-size: 30px;
+}
+
+.akauntingSectionTree .center {
+    text-align: center !important;
+}
+
+.akauntingSectionTree div.customBlockMargin{
+  /*margin-top: 22px;*/
+}
+
+.akauntingSectionTree .feature-box.fbox-right {
+  padding: 0 80px 0 0;
+  text-align: right;
+  position: relative;
+}
+
+.akauntingSectionTree .feature-box {
+  position: relative;
+  /*margin-top: 20px;*/
+  padding: 0 0 0 80px;
+}
+
+.akauntingSectionTree .rightBlock .feature-box .fbox-icon {
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 0;
+  left: 0;
+}
+
+.akauntingSectionTree .topmargin {
+  margin-top: 50px;
+}
+
+.akauntingSectionTree .feature-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #333;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+.akauntingSectionTree .feature-box p {
+  margin: 8px 0 0 0;
+  color: #999;
+  line-height: 1.8;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  min-height: 85px;
+}
+
+.akauntingSectionTree .rightBlock .feature-box p {
+  text-align: left;
+}
+
+.akauntingSectionTree .feature-box .fbox-icon {
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 0;
+  left: auto;
+  right: 0;
+}
+
+.akauntingSectionTree .feature-box .fbox-right{
+  text-align: right;
+}
+
+.akauntingSectionTree .feature-box .fbox-icon i {
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 64px;
+  border-radius: 50%;
+  background-color: #6da252;
+
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+}
+/*=====================akauntingSectionTree===========================*/
+/*=====================akauntingSectionTree===========================*/
+
+
+/*=====================akauntingSectionFour===========================*/
+/*=====================akauntingSectionFour===========================*/
+.akauntingSectionFour .button-full{
+  background-color: #6da252;
+  transition: all .2s ease-in-out;
+  display: block;
+  white-space: normal;
+  margin: 0;
+  height: auto;
+  line-height: 1.6;
+  padding: 30px 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: none;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+.akauntingSectionFour .button-full strong{
+  transition: border .2s ease-in-out;
+  font-weight: 600;
+  border-bottom: 2px solid #EEE;
+}
+
+.akauntingSectionFour .button-full i{
+  top: 4px;
+}
+.akauntingSectionFour .btn.tright i {
+  margin: 0 0 0 5px;
+}
+
+.akauntingSectionFour .btn i {
+  position: relative;
+  top: 1px;
+  line-height: 1;
+  margin-right: 5px;
+  width: 16px;
+  text-align: center;
+}
+
+/**-------------------------------------------------------------------*/
+.akauntingSectionFour .dark{
+  color: #EEEEEE;
+}
+
+.secondBlockCommunity > div{
+  padding: 60px;
+}
+
+.dark .i-plain {
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.i-xlarge.i-plain {
+  width: 64px !important;
+  height: 64px !important;
+  font-size: 56px;
+  line-height: 64px !important;
+}
+
+.i-xlarge.i-rounded, .i-xlarge.i-plain, .i-xlarge.i-circled, .i-xlarge.i-bordered {
+  margin: 4px 11px 7px 0;
+  /* font-size: 56px; */
+}
+
+.dark .heading-block:not(.not-dark), .dark .counter {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+.counter {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+.counter + h5 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.counter.counter-lined + h5:before {
+  display: block;
+  position: relative;
+  margin: 20px auto 25px auto;
+  content: '';
+  width: 15%;
+  border-top: 2px solid #EEE;
+  opacity: 0.9;
+}
+
+.center{
+  text-align: center;
+}
+
+/*=====================akauntingSectionFour===========================*/
+/*=====================akauntingSectionFour===========================*/
+
+
+/*=====================akauntingSectionFive===========================*/
+/*=====================akauntingSectionFive===========================*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 30px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.akauntingSectionFive{
+  max-width: 700px;
+  padding-bottom: 80px;
+}
+
+.akauntingSectionFive .topmargin-lg{
+  margin-top: 80px;
+}
+
+.akauntingSectionFive .text-center{
+  /*width: 100%;*/
+}
+
+.content-center {
+  margin: 0 auto;
+}
+
+.lang-flag {
+  margin: 15px 15px 0 0;
+  max-width: 100%;
+}
+
+.akauntingSectionFive h2 {
+  font-size: 30px;
+}
+
+.akauntingSectionFive .topmargin-sm {
+  margin-top: 30px !important;
+}
+
+.akauntingSectionFive .home-social {
+  max-width: 465px;
+}
+
+.akauntingSectionFive .social-icon{
+  color: #555;
+  text-shadow: none;
+  border: 1px solid #AAA;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.akauntingSectionFive .si-borderless {
+  border-color: transparent !important;
+}
+
+.akauntingSectionFive .si-borderless:hover i{
+  top: -56px;
+}
+
+.si-forrst:hover, .si-colored.si-forrst {
+  background-color: #5B9A68 !important;
+}
+
+.si-linkedin:hover, .si-colored.si-linkedin {
+  background-color: #0E76A8 !important;
+}
+.akauntingSectionFive .social-icon.si-large {
+  margin: 0 10px 10px 0;
+  width: 56px;
+  height: 56px;
+  line-height: 54px !important;
+
+
+  color: #555;
+  text-shadow: none;
+  border: 1px solid #AAA;
+  border-radius: 3px;
+  overflow: hidden;
+
+
+  display: block;
+  float: left;
+
+  cursor: pointer;
+
+}
+
+.akauntingSectionFive .social-icon i {
+  display: block;
+  position: relative;
+  height: 56px;
+  width: 56px;
+  font-size: 30px;
+}
+/*=====================akauntingSectionFive===========================*/
+/*=====================akauntingSectionFive===========================*/
